@@ -1,0 +1,17 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:WooyoungSon.github.io:chatbot",
+  "verificationMethod": [{
+    "id": "did:web:WooyoungSon.github.io:chatbot#owner",
+    "type": "JsonWebKey2020",
+    "controller": "did:web:WooyoungSon.github.io:chatbot",
+    "publicKeyJwk": {
+      "kty": "EC",
+      "crv": "secp256k1",
+      "x": "PLXa8cbf+Bsij/69VrGbZaQaFqmLMYER2xxE/dSCAoA=",
+      "y": "DFeXhe2AEfPphbQF/0/4Mr136lq1h1huxCdNxyzXO4U="
+    }
+  }],
+  "authentication": ["did:web:WooyoungSon.github.io:chatbot#owner"],
+  "assertionMethod": ["did:web:WooyoungSon.github.io:chatbot#owner"]
+}
