@@ -1,10 +1,10 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:soonding-client.github.io",
+  "id": "did:web:wooyoungson-client.github.io",
   "verificationMethod": [{
-    "id": "did:web:soonding-client.github.io#owner",
+    "id": "did:web:wooyoungson-client.github.io#owner",
     "type": "JsonWebKey2020",
-    "controller": "did:web:soonding-client.github.io",
+    "controller": "did:web:wooyoungson-client.github.io",
     "publicKeyJwk": {
       "kty": "EC",
       "crv": "secp256k1",
@@ -12,6 +12,6 @@
       "y": "7iKuLoNUXd92ImTzv9hatWyXURgLv8n6dmWiyyohqyk="
     }
   }],
-  "authentication": ["did:web:soonding-chatbot.github.io#owner"],
-  "assertionMethod": ["did:web:soonding-chatbot.github.io#owner"]
+  "authentication": ["did:web:wooyoungson-chatbot.github.io#owner"],
+  "assertionMethod": ["did:web:wooyoungson-chatbot.github.io#owner"]
 }
